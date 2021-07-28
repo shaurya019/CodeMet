@@ -2,9 +2,21 @@
   color: #fff;
   padding: 0px 8px;
 }
+.navbar{
+	background-color: #003638;
+}
 .header{
     height: 300px;
+	background-color: #003638;
 }
+.btn{
+	background-color: #003638;
+}
+/* .btn-email{
+	border: 2px solid white;
+	background-color: white;
+	border-radius: 10px;
+} */
 .intro h2{
     margin-top: 40px;
     font-weight: 500;
@@ -146,6 +158,18 @@ a {
 	visibility: hidden;
 	transition: visibility 0s .6s;
 }
+.cd-slider ul li:nth-child(1){
+	background-color: rgb(51,197,136) !important;
+}
+.cd-slider ul li:nth-child(2){
+	background-color: rgb(143, 9, 170) !important;
+}
+.cd-slider ul li:nth-child(3){
+	background-color: rgb(16, 127, 231) !important;
+}
+.cd-slider ul li:nth-child(4){
+	background-color: rgb(231, 31, 148) !important;
+}
 .cd-slider ul li::before {
 	content: '';
 	position: absolute;
@@ -180,11 +204,12 @@ a {
 }
 .content blockquote {
   z-index: 2;
-	max-width: 45%;
+	max-width: 61%;
 }
 blockquote h2{
 	/* text-align: center; */
 	text-align: center;
+	
 	  font-size: 2.4rem;
 	  font-weight: bolder;
 	  margin-bottom: 2rem;
@@ -196,7 +221,7 @@ blockquote p {
 	margin-bottom: 2rem;
 }
 blockquote a {
-	border: 2px solid black;
+	border: 2px solid #FFFFFF;
 	border-radius: 25px;
 	
 }
@@ -207,6 +232,7 @@ blockquote a {
 } */
 /* current slide
 ---------------------------------*/
+
 .cd-slider li.current_slide {
 	visibility: visible;
 }
@@ -287,3 +313,191 @@ blockquote a {
 	transform: translate(-50%, -50%);
 	transition: width .6s, height .6s;
 } 
+.road h2{
+    color: black;
+}
+.road p{
+	color: gray;
+	font-size: 20px;
+	text-align: center;
+}
+.timeline {
+    position: relative;
+    width: 75%;
+    align-items: center;
+
+}
+
+.timeline-box {
+    position: relative;
+    margin: 6px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+	box-shadow: 3px 3px 4px 3px rgb(104 6 112 / 30%);
+}
+.timeline-box p{
+	text-align: center;
+}
+.timeline-box p a{
+	text-align: center;
+	text-decoration: none;
+}
+#timeline-box1{
+	background-color: rebeccapurple;
+	color: white;
+	border-right:  2px solid rebeccapurple;
+	border-bottom:  2px solid rebeccapurple;
+}
+#timeline-box1 a{
+	color: white;
+}
+
+#timeline-box2{
+	background-color: #FF6767;
+	border-right:  2px solid #FF6767;
+	border-bottom:  2px solid #FF6767;
+}
+#timeline-box2 a{
+	color: black;
+}
+
+#timeline-box3{
+	background-color: #FF7600;
+	color: white;
+	border-right:  2px solid #FF7600;
+	border-bottom:  2px solid #FF7600;
+}
+#timeline-box3 a{
+	color: white;
+}
+#timeline-box4{
+	background-color: #93D9A3;
+	border-right:  2px solid #50CB93;
+	border-bottom:  2px solid #50CB93;
+}
+
+#timeline-box4 a{
+	color: black;
+}
+.timeline-box:nth-child(2n) {
+	left: 86%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+	content: '';
+    position: absolute;
+	top: 48%;
+    right: -56%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: black;
+    z-index: 1;
+
+}
+
+
+.timeline-box:nth-child(2n)::after {
+    content: '';
+    position: absolute;
+	top: 49%;
+	left: -49%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: black;
+    z-index: 1;
+}
+
+.timeline-divider {
+	position: absolute;
+    height:78%;
+    width: 0;
+    border: 2px dashed white;
+    top: 10%;
+    left: 67%;
+}
+
+.timeline-traveller {
+    position: sticky;
+    top: 30%;
+    transform: rotate(90deg);
+    z-index: 4;
+}
+.head-float{
+	font-size: 62px;
+	font-weight:800;
+	margin-bottom: 27px;
+}
+.float-container{
+    padding-top: 175px;
+}
+.float-child1 {
+    width: 50%;
+	height: 25%;
+    float: left;
+	text-align: center;
+	background-color: black;
+    border: 2px solid black;
+}  
+.black{
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-weight:800;
+	font-size: 60px;
+}
+.sheet1  {
+	font-weight:800;
+	font-size: 40px;
+	padding: 8px;
+	text-align: center;
+	color: blue;
+}
+.white{
+    font-size: 60px;
+    padding: 8px;
+	text-align: center;
+	color: black;
+	font-weight:800;
+}
+.sheet2 {
+	font-weight:800;
+	font-size: 40px;
+	padding: 8px;
+	text-align: center;
+	color: blue;
+}
+.sheet1-about{
+	font-size: 20px;
+	text-align: center;
+color: white;
+}
+.sheet1-about li a{
+	font-size: 30px;
+	font-weight: 500;
+color: white;
+}
+.sheet2-about{
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+.sheet2-about li a{
+	font-size: 30px;
+	font-weight: 500;
+color: black;
+}
+.float-child2 {
+    width: 50%;
+	height: 25%;
+    float: left;
+	text-align: center;
+	background-color: white;
+    border: 2px solid white;
+}  
+.footer h2{
+	height: 300px;
+	
+}

@@ -13,7 +13,11 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='style.css'>
-    <link href="assets/style.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/b9a9df7eb5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
@@ -24,8 +28,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">CoDeMeT</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- <a class="navbar-brand" href="#">CoDeMeT</a> -->
+       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,12 +44,12 @@
                     <a style="text-decoration:none" href="/Coding Interview.html" target="_blank">Coding Interview</a>
                 </li>
                 <li class="nav-item">
-                    <a style="text-decoration:none" href="/Roadmaps.html" target="_blank">Roadmaps</a>
+                    <a style="text-decoration:none" href="#roadmaps" >Roadmaps</a>
                 </li>
                 <ul class="flex justify-end flex-wrap items-center">
-                    <li><a class="btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6" style="padding-left: 700px "
-                            href="mailto:codemet23@gmail.com" target="_blank"
-                            style="outline: none;">CoDeMet23@gmail.com</a></li>
+                    <li><a class="btn-email btn-sm text-white bg-teal-500 hover:bg-teal-400 ml-6" 
+                                                    href="mailto:codemet23@gmail.com" target="_blank"
+                            style="text-decoration: none; outline: none; padding-left: 700px">CoDeMet23@gmail.com</a></li>
                 </ul>
 
             </ul>
@@ -53,10 +58,11 @@
 
     <!-- HEADER -->
     <header>
-        <section class="bg-dark text-light pt-5 text-center header text-sm-start p-5 p-lg-0 pt-lg-5">
+        <section class=" text-light pt-5 text-center header text-sm-start p-5 p-lg-0 pt-lg-5">
             <div class="container">
                 <div class="d-sm-flex align-items-center justify-content-center">
                     <div class="header-line1">
+                        <img src="./images/logo.png" alt="sorry">
                         <!-- <h2>
                 Make a <span class="text-danger">Resolution</span> to <span class="text-warning">Stand Out </span>at Work this Year
             </h2> -->
@@ -95,11 +101,11 @@
 
         <div class="container">
             <div class="slides">
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Introduction</p>
                     </h2>
-                    <div class="day_dropdown">
+                    <div class="day_dropdown ">
                         <ul>
                             <h2>Need to Know</h2>
                             <li><a href="https://www.codingdojo.com/blog/how-to-start-coding" target="_blank">How to
@@ -124,7 +130,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Courses</p>
                     </h2>
@@ -154,7 +160,7 @@
                     </div>
                 </div>
 
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Languages</p>
                     </h2>
@@ -177,7 +183,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">CodePad</p>
                     </h2>
@@ -197,7 +203,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Contest</p>
                     </h2>
@@ -217,7 +223,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Arrays</p>
                     </h2>
@@ -250,7 +256,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Sorting Algorithms</p>
                     </h2>
@@ -283,7 +289,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Linked List</p>
                     </h2>
@@ -309,7 +315,7 @@
                         </ul>
                     </div>
                 </div><br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Recursion</p>
                     </h2>
@@ -338,7 +344,7 @@
                         </ul>
                     </div>
                 </div><br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Time Complexity, Big-O</p>
                     </h2>
@@ -363,7 +369,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Stacks</p>
                     </h2>
@@ -387,7 +393,7 @@
                         </ul>
                     </div>
                 </div><br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Queue</p>
                     </h2>
@@ -414,7 +420,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Hashmaps</p>
                     </h2>
@@ -446,7 +452,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Heap</p>
                     </h2>
@@ -482,7 +488,7 @@
                 </div>
                 <br>
 
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Tries</p>
                     </h2>
@@ -511,7 +517,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Trees</p>
                     </h2>
@@ -539,7 +545,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Binary Trees</p>
                     </h2>
@@ -562,7 +568,7 @@
                         </ul>
                     </div>
                 </div><br>
-                <div class="quarter">
+                <div class="quarter  wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">DP</p>
                     </h2>
@@ -592,7 +598,7 @@
                 </div>
                 <br>
 
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Graphs</p>
                     </h2>
@@ -621,7 +627,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp">
                     <h2>
                         <p style="font-size: 25px;">Questions - 1</p>
                     </h2>
@@ -652,7 +658,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="quarter">
+                <div class="quarter wow animate__animated animate__fadeInUp ">
                     <h2>
                         <p style="font-size: 25px;">Questions - 2</p>
                     </h2>
@@ -690,6 +696,7 @@
         </div>
         </div>
         <br>
+    </main>
         <section class="knowelege">
 
             <section>
@@ -809,7 +816,7 @@
                             make Profile?</a>
                     </div>
                     <div class="img col-lg-6 col-md-6 col-12 w-50 pt-3 pb-3">
-                        <img src="https://images.thequint.com/thequint%2F2021-04%2F8faedb95-cf1b-4aa9-99b9-ad2efa6aca6d%2F1cbf09b255c06fde8611743e2e2a6d69.jpg?rect=0%2C0%2C345%2C194&auto=format%2Ccompress&fmt=webp"
+                        <img src="./images/pic1-min.jpg"
                             alt=”Image” style=" margin-top: 25px;
                         margin-left: 37px; height: 335px; width: 476px;">
                     </div>
@@ -859,6 +866,82 @@
             </section>
 
         </section>
+        <div id="roadmaps" style="height: 5px;"></div>
+        <section style="background-color: white; height: 1000px;">
+            <div class="road">
+                <h2 style="font-size: 62px; text-align: center;
+                margin-top: 135px; font-weight: 1000;" class="h2 font-red-hat-display mb-4">
+                    What We'll Help You With!!
+                </h2>
+                <p>Roadmap is a strategic plan that defines a goal or desired outcome and includes the major steps or milestones needed to reach it.</p>
+            </div>
+                <section id="experience">
+
+                    <h1 style="margin: 25px; text-align: center;" class="section-heading mb75px">
+                        <span>
+                            <i style="color:black" class="fas fa-briefcase"></i>
+                        </span>
+                        <span style="font-size:55px;color:black"> RoadMaps </span>
+                    </h1>
+        
+                    <div  class="timeline">
+                        <div id="timeline-box1" class="timeline-box">
+                            <h3 style="text-align: center; font-size: 40px;font-weight: 1000;">College Strategy</h3>
+                            <p><a href="https://www.youtube.com/watch?v=xxgsHDQ0eJg">Odd Year </a><br>
+                                <a href="https://www.youtube.com/watch?v=Z1KfAotr0NQ">Even Year</a><br>
+                                <a href="https://www.youtube.com/watch?v=VY6003vijLw&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=1">Final Year</a><br>
+                                <a href="https://www.youtube.com/watch?v=HYK5lpkKBPo">GUIDE</a><br>
+                            </p>
+                        </div>
+                        <div id="timeline-box2" class="timeline-box">
+                            <h3  style="text-align: center; font-size: 40px;font-weight: 1000;">Coding Strategy</h3>
+                            <p><a href="https://www.youtube.com/watch?v=ymfdOOBFgOQ">Road to CP </a><br>
+                            <a href="https://www.youtube.com/watch?v=cdEK3DrJFRw">Start CodeChef </a><br>
+                            <a href="https://www.youtube.com/watch?v=PM8gczl7DVw&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=6">Start CodeForces</a><br></p>
+                        </div>
+                        <div id="timeline-box3" class="timeline-box">
+                            <h3  style="text-align: center; font-size: 40px;font-weight: 1000;">Development</h3>
+                            <p><a href="https://www.youtube.com/watch?v=_1yYCa0_Q1c">WEB</a><br>
+                                <a href="https://www.youtube.com/watch?v=VaMWsm6CFss">ANDROID </a><br>
+                                <a href="https://www.youtube.com/watch?v=mlxoB3wI9eY&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=2">Machine Learning </a><br></p>
+                        </div>
+                        <div id="timeline-box4" class="timeline-box">
+                            <h3  style="text-align: center; font-size: 40px;font-weight: 1000;">Interview Strategy</h3>
+                            <p><a href="https://www.youtube.com/watch?v=h2zzRpibjpE">Interview</a><br>
+                                <a href="https://www.youtube.com/watch?v=SWBjv-GU3VQ&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=7">Operating sys. </a><br>
+                                <a href="https://www.youtube.com/watch?v=wWejXusF9qU&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=8">OOPS </a><br>
+                                <a href="https://www.youtube.com/watch?v=BQBGORBPytw&list=PL4PCksYQGLJMtEI_0y0FWf3dz1DzB_2KU&index=9">DBMS </a><br></p>
+                        </div>
+                        <div class="timeline-divider">
+                            <div class="timeline-traveller">
+                                <i style="color:rgb(46, 130, 240);font-size: 24px;" class="fas fa-plane"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+        
+        
+                </section>
+            
+        </section>
+        <section style="height: 500px; width:500px;background-color:white">
+            <div></div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <!-- <section id="discover" class="discovery  py-5">
         <div class="row align-item-center container mx-auto my-5">
@@ -925,34 +1008,25 @@
        </div>
      </section> -->
 
-    </main>
-
-
-    <!-- <section id="learn "class="p-5 bg-dark text-light">
-        <div class="container">
-            <div class="row align-items-center justify-content-between align-items-center">
-                <div class="col-md p-5">
-                    <h2>Learn Design</h2>
-                    <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda commodi, voluptatem illum inventore tenetur sapiente.
-                    </p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi harum neque beatae, illo temporibus dolorum assumenda ut vel sit culpa veniam laboriosam animi corrupti nesciunt exercitationem nulla expedita obcaecati commodi?
-                    </p>
-                    <a href="#" class="btn btn-light mt-3">
-                        <i class="bi bi-chevron-right">Read More</i>
-                    </a>
-                </div>
-                <div class="col-md">
-                    <img src="img/pic3.jpg" class ="img-fluid" alt="sorry" width="400" height="500">
-                 </div>
-            </div>
-        </div>    
-    </section> -->
+    
+    </section> 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>
+                  wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+        </script>
     <script src="script.js"></script>
 </body>
 
