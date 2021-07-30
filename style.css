@@ -210,32 +210,20 @@ align-items: center;
   
 
 
-.para1{
-	/* box-shadow: 3px 6px 11px #fff; */
-}
-
-.para2{
-	/* border-right: 2px;
-	border-bottom:2px;
-	box-shadow: 3px 6px 11px #212121; */
-}
 
 .notes{
 	background-color: black;
 	color: white;
 }
-.project{
+/* .project{
 	
-}
+} */
 
 .profile{
 	background-color: black;
 	color: white;
 }
 
-.intern{
-	
-}
 
 
 .mnotesdiv div h2{
@@ -300,13 +288,10 @@ a {
 	background-color: #50CB93 !important;
 }
 .cd-slider ul li:nth-child(2){
-	background-color: rgb(143, 9, 170) !important;
+	background-color: #50CB93 !important;
 }
 .cd-slider ul li:nth-child(3){
-	background-color: rgb(16, 127, 231) !important;
-}
-.cd-slider ul li:nth-child(4){
-	background-color: rgb(231, 31, 148) !important;
+	background-color: #50CB93 !important;
 }
 .cd-slider ul li::before {
 	content: '';
@@ -347,7 +332,6 @@ a {
 blockquote h2{
 	/* text-align: center; */
 	text-align: center;
-	
 	  font-size: 2.4rem;
 	  font-weight: bolder;
 	  margin-bottom: 2rem;
@@ -363,11 +347,11 @@ blockquote a {
 	border-radius: 25px;
 	
 }
-/* blockquote span a{
+blockquote span a{
 	text-decoration: none;
 	font-size: 1rem;
 	text-align: right;
-} */
+}
 /* current slide
 ---------------------------------*/
 
