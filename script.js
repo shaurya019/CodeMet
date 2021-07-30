@@ -5,7 +5,7 @@
       timeTrans = 4000;
   
 	var cdSlider = document.querySelector('.cd-slider'),
-		item = cdSlider.querySelectorAll("li"),
+		item = cdSlider.querySelectorAll("li");
 		nav = cdSlider.querySelector("nav");
 
 	item[0].className = "current_slide";
@@ -128,6 +128,6 @@
     };
 	},timeTrans);
 
-})();
+});
 
 
