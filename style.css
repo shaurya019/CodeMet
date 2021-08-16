@@ -468,15 +468,14 @@ nav > div > span {
 	}
   } */
 
-/* .notes {
+ .notes {
   background-color: black;
   color: white;
 }
-/* .project{
+.project{
 	
-} */
-
-/* .profile {
+} 
+ .profile {
   background-color: black;
   color: white;
 }
@@ -496,7 +495,7 @@ nav > div > span {
 .mintern div div h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700; 
-} */
+}
 /* @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 *,
 *::before,
